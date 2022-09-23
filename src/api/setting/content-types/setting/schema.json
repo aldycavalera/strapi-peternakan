@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbarTitle": {
+      "type": "string"
+    },
+    "jumbotron": {
+      "displayName": "Jumbotron",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.jumbotron"
+    },
+    "profilSection": {
+      "type": "boolean"
+    },
+    "gallerySection": {
+      "type": "boolean"
+    },
+    "footerText": {
+      "type": "text"
+    },
+    "socials": {
+      "displayName": "Socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.socials"
+    },
+    "dataSection": {
+      "displayName": "Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section"
+    }
+  }
+}

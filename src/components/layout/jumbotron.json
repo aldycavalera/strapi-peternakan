@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_jumbotrons",
+  "info": {
+    "displayName": "Jumbotron",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

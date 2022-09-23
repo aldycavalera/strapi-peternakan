@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
